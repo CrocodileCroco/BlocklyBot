@@ -12,6 +12,7 @@ const prefix = "!";
 client.on('ready', () => {
     console.log('I am ready!');
     client.user.setUsername('BlocklyBot')
+    process.exit()
 });
 
 client.on('message', message => {
