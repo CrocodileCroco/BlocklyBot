@@ -70,25 +70,25 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'zapobby') {
-        message.channel.send('ATTENTION, IL A DIT ZAPOBBY!!! @everyone');
+        message.channel.send('ATTENTION, IL A DIT ZAPOBBY!!!');
     }
 });
 
 client.on('message', message => {
     if (message.content === 'ptn') {
-        message.channel.send('ATTENTION, IL A DIT PTN!!! @everyone');
+        message.channel.send('ATTENTION, IL A DIT PTN!!!');
     }
 });
 
 client.on('message', message => {
     if (message.content === 'prout') {
-        message.channel.send('ATTENTION, IL A DIT PROUT!!! C UN GROS ABDL!!! :warning: @everyone');
+        message.channel.send('ATTENTION, IL A DIT PROUT!!! C UN GROS ABDL!!! :warning:');
     }
 });
 
 client.on('message', message => {
     if (message.content === 'caca') {
-        message.channel.send('ATTENTION, IL A DIT CACA!!! C UN GROS ABDL!!! :warning: @everyone');
+        message.channel.send('ATTENTION, IL A DIT CACA!!! C UN GROS ABDL!!! :warning:');
     }
 });
 
@@ -98,6 +98,23 @@ client.on('message', message => {
     }
 });
 
+client.on('message', message => {
+    if (message.content === 'pipi') {
+        message.channel.send('ATTENTION, IL A DIT PIPI!!! C UN GROS ABDL!!! :warning:');
+    }
+});
+
+client.on('message', message => {
+    if (message.content === 'pied') {
+        message.channel.send('ATTENTION, IL A DIT PIED!!! C UN FETICHISTE!!! :warning:');
+    }
+});
+
+client.on('message', message => {
+    if (message.content === 'pied') {
+        message.channel.send('ATTENTION, IL A DIT PIEDS!!! C UN FETICHISTE!!! :warning:');
+    }
+});
 
 
 // THIS  MUST  BE  THIS  WAY
