@@ -1,2 +1,2 @@
-# BlocklyBot
-Bot for the server of kepa
+# DefinitelyNotBot
+A Discord bot coded in Discord.JS, hosted using Heroku.
