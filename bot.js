@@ -62,6 +62,43 @@ client.on('message', message => {
     }
 });            
 
+client.on('message', message => {
+    if (message.content === 'kepanais') {
+        message.channel.send('ATTENTION, IL A DIT KEPANAIS!!!');
+    }
+});
+
+client.on('message', message => {
+    if (message.content === 'zapobby') {
+        message.channel.send('ATTENTION, IL A DIT ZAPOBBY!!! @everyone');
+    }
+});
+
+client.on('message', message => {
+    if (message.content === 'ptn') {
+        message.channel.send('ATTENTION, IL A DIT PTN!!! @everyone');
+    }
+});
+
+client.on('message', message => {
+    if (message.content === 'prout') {
+        message.channel.send('ATTENTION, IL A DIT PROUT!!! C UN GROS ABDL!!! :warning: @everyone');
+    }
+});
+
+client.on('message', message => {
+    if (message.content === 'caca') {
+        message.channel.send('ATTENTION, IL A DIT CACA!!! C UN GROS ABDL!!! :warning: @everyone');
+    }
+});
+
+client.on('message', message => {
+    if (message.content === 'NO U') {
+        message.channel.send('NO, U !!!');
+    }
+});
+
+
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
