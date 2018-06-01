@@ -111,7 +111,7 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === 'pied') {
+    if (message.content === 'pieds') {
         message.channel.send('ATTENTION, IL A DIT PIEDS!!! C UN FETICHISTE!!! :warning:');
     }
 });
